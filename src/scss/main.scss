@@ -12,3 +12,45 @@ img,
 video {
   display: block;
 }
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 40px;
+  border: 2px solid #f00;
+  color: #f00;
+  width: 136px;
+}
+
+body {
+  padding: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.button-label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.button-count {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+i {
+  width: 18px;
+  height: 18px;
+}
+
+.est-actif {
+  background-color: #f00;
+  color: white;
+}
+
+.actif {
+  color: white;
+}
